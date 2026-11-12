@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+server/node_modules/
+client/node_modules/
+
+# Build outputs
+client/dist/
+dist/
+
+# Environment variables
+.env
+.env.local
+server/.env
+server/.env.local
+client/.env
+client/.env.local
+
+# Local JSON storage (auto-created by FileStore)
+server/data/
+server/data
+
+# Logs & OS files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
